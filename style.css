@@ -1,6 +1,6 @@
 body {
 background-color: #D1D8E0;
-color: #5C4A3E; 
+color: #333333; 
 font-family: Arial, sans-serif; 
 margin: 0; 
 padding: 20px; 
@@ -8,60 +8,69 @@ padding: 20px;
 
 header {
     text-align: center;
-    border-bottom:3px double #6B2D40;
-    color: #2D4A3E;
+    border-bottom:3px double #1a3328;
+    padding-bottom: 15px;
+    color: #1a3328;
+}
+
+h1 { 
+    font-size: 2.2em;
+    font-weight: bold; 
+    margin: 0; 
 }
 
 nav {
 text-align: center;
-border-bottom: 1px solid #6B2D40;
+border-bottom: 1px solid #1a3328;
 padding: 10px;
+color: #1a3328;
+font-weight: bold; 
 }
 
 main {
-max-width: 600px;
-margin: 0 auto;   /*Centraliza o bloco principal na tela */
-text-align: center;  /*Centraliza todos os textos dentro do main */
-line-height: 1.6;
+max-width: 850px;
+margin: 0 auto; 
+line-height: 1.7;
+text-align: left; 
 }
 
 h2 {
-  color: #2D4A3E; /*Verde Pine*/
+  color:#1a3328;
+  font-size: 1.5em;
+  font-weight: bold; 
+  margin-top: 20px; 
 }
 
-/* Cada subtema (article) com fundo Snowflake (Branco) */
 article {
   background-color: #FAFAFA;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 25px;
+  margin: 25px 0;
   border-radius: 8px;
-  text-align: center, /*Alinha o texto do artigo no meio*/
+  text-align: left;
 }
 
-/* O recado das autoras (<aside>) no tom Mist (Névoa) */
 aside {
   background-color: #E2E8E4;
-  color: #2D4A3E;
+  color: #1a3328;
   padding: 15px;
-  margin: 15px 0;
-  border-left: 4px solid #6B2D40; /* Linha de detalhe na cor Berry */
+  margin: 20px 0;
+  border-left: 5px solid #1a3328; 
   border-radius: 4px;
 }
 
-/* Imagens ajustadas */
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  display: block;   /* Faz a imagem se comportar como um bloco*/ 
-  margin: 15px auto; /*Centraliza a imagem na horizontal */
+  display: block;  
+  margin: 20px 0; 
 }
 
 footer {
 font-style: italic;
 text-align: center;
-border-top: 1px solid #6B2D40;
+border-top: 1px solid #1a3328;
 margin-top: 30px;
 padding-top: 10px;
-color: #2D4A3E;
+color: #1a3328; 
 }
