@@ -1,25 +1,67 @@
 body {
-background-color: #f4ecd8;
-color: #lalala;
-font-family: 'Times New Roman',
-(serif;
+background-color: #D1D8E0;
+color: #5C4A3E; 
+font-family: Arial, sans-serif; 
+margin: 0; 
+padding: 20px; 
 }
+
 header {
+    text-align: center;
+    border-bottom:3px double #6B2D40;
+    color: #2D4A3E;
 }
-text-align: center;
-border-bottom: 3px double #000;
+
 nav {
 text-align: center;
-border-bottom: 1px solid #000;
-padding: 5px;
+border-bottom: 1px solid #6B2D40;
+padding: 10px;
 }
+
 main {
 max-width: 600px;
-margin: auto;
+margin: 0 auto;   /*Centraliza o bloco principal na tela */
+text-align: center;  /*Centraliza todos os textos dentro do main */
 line-height: 1.6;
 }
+
+h2 {
+  color: #2D4A3E; /*Verde Pine*/
+}
+
+/* Cada subtema (article) com fundo Snowflake (Branco) */
+article {
+  background-color: #FAFAFA;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: center, /*Alinha o texto do artigo no meio*/
+}
+
+/* O recado das autoras (<aside>) no tom Mist (Névoa) */
+aside {
+  background-color: #E2E8E4;
+  color: #2D4A3E;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 4px solid #6B2D40; /* Linha de detalhe na cor Berry */
+  border-radius: 4px;
+}
+
+/* Imagens ajustadas */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;   /* Faz a imagem se comportar como um bloco*/ 
+  margin: 15px auto; /*Centraliza a imagem na horizontal */
+}
+
 footer {
 font-style: italic;
-border-top: 1px solid #000;
+text-align: center;
+border-top: 1px solid #6B2D40;
 margin-top: 30px;
+padding-top: 10px;
+color: #2D4A3E;
 }
